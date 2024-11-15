@@ -1,0 +1,104 @@
+/* Footer General Styling */
+footer {
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-col {
+    flex: 1 1 250px;
+    margin: 20px;
+  }
+  
+  .footer-col h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+  
+  .footer-col p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    text-decoration: none;
+    color: #bbb;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #ffcc00; /* Milk-related theme color */
+  }
+  
+  .footer-col .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #444;
+    padding: 20px 0;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-bottom a {
+    color: #ffcc00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-bottom a:hover {
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-row {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-col {
+      margin: 20px 0;
+    }
+  }
+  

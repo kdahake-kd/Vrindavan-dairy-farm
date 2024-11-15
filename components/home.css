@@ -1,0 +1,206 @@
+.power{
+    width: 95%;
+    height: 500px;
+    position:relative;
+    left:3%;
+    background-image: url('./seller/Photo/vrinda.jpg');
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 10px grey;
+    animation: slider 12s infinite linear;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url('./seller/Photo/vrinda.jpg');
+    }
+    30%{
+        background-image: url('./seller/Photo/milk.jpg')
+    }
+
+    60%{
+        background-image: url('./seller/Photo/WhatsApp\ Image\ 2024-10-28\ at\ 13.09.56_7483091d.jpg');
+    }
+
+    90%{
+        background-image: url('./seller/Photo/WhatsApp\ Image\ 2024-10-28\ at\ 18.56.16.jpeg');
+    }
+}
+
+#maya{
+    position: relative;
+    top:100px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s;
+    padding:"30px 50px";
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#maya:hover{
+    height: 300px;
+}
+#maya #first{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-150px);
+    border-radius: 10px;
+    z-index:99px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);;
+}
+
+#may #first img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.5);
+
+}
+
+
+#maya #large{
+    padding:10px 20px;
+    text-align: center;
+    transform: translateY(-300px);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+#first:hover > #large{
+    opacity: 1;
+    transform: translateY(30px);
+}
+
+.popular{
+    background-color: #00c9b7;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:300px;
+}
+
+.outer{
+    position: relative;
+    bottom: -100px;
+}
+
+.outer h1{
+    display: inline;
+    padding:120px;
+    position: relative;
+    color: white;
+}
+
+.inner{
+    position: relative;
+    bottom: -100px;
+}
+
+.inner p{
+    display: inline;
+    padding:110px;
+    position: relative;
+    color: white;
+}
+
+
+.ceo{
+    position: relative;
+    width: 100%;
+    height:330px;
+    background-color: #ff693d;
+    margin:200px 0px 0px 0px;
+    top:200px;
+}
+
+.ceo .cow{
+    position: absolute;
+    width: 300px;
+    height: 330px;
+    background-color:#3333;
+    border-radius: 50% 50% 0% 0%;
+    right: 200px;
+}
+
+.pogo{
+    position: relative;
+    width:100%;
+    height:400px;
+    background-color:aliceblue;
+    top:300px;
+}
+
+.deliver img{
+    position: relative;
+    left:200px;
+}
+
+
+.logic h1{
+    position: relative;
+    font-family: sans-serif;
+    bottom:350px;
+    left:60%;
+    letter-spacing: 2px;
+    color:brown;
+}
+
+.logic h2{
+    position: relative;
+    font-family: sans-serif;
+    bottom:350px;
+    left:60%;
+    color:brown;
+}
+
+.logic h4{
+    position: relative;
+    font-family: sans-serif;
+    bottom: 350px;
+    left:62%;
+    letter-spacing: 2px;
+    color:aliceblue
+}
+
+.logic h5{
+    position: relative;
+    font-family: sans-serif;
+    bottom:300px;
+    left:45%;
+    letter-spacing: 2px;
+    color:darkblue
+}
+
+.free{
+    position: relative;
+    bottom:250px;
+    left:65%;
+    
+}
+
+.free button{
+    padding:10px;
+    border-radius: 50px;
+    width:150px;
+    background-color: #ff693d;
+    color:wheat;
+    letter-spacing: 2px;
+}
+
+.frequency{
+    position: relative;
+    top:550px;
+}
+
+.nana{
+    position: relative;
+    top:230px;
+}
+
+.foot{
+    position: relative;
+    top:700px;
+}
