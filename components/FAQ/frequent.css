@@ -1,0 +1,73 @@
+/* frequent.css */
+.main-heading {
+    position: relative;
+    left:33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f8ff; /* Light background */
+    padding: 10x 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    width:600px;
+
+}
+
+.main-heading:hover {
+    background-color: #e6f7ff; /* Lighter hover effect */
+}
+
+.main-heading p {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0;
+    color: #007BFF; /* Primary color for toggle button */
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.main-heading p:hover {
+    color: #0056b3; /* Darker color on hover */
+    transform: scale(1.2); /* Enlarges toggle icon on hover */
+}
+
+.main-heading h3 {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.answers {
+    font-size: 18px;
+    color: #555;
+    background-color: #fff; /* White background for answers */
+    padding: 15px;
+    margin: -5px 20px 20px 50px; /* Positioned below the heading */
+    border-left: 4px solid #007BFF; /* Left border indicator */
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    animation: fadeIn 0.3s ease; /* Smooth fade-in animation */
+}
+
+.answers::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

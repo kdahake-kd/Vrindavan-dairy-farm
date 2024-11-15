@@ -1,0 +1,77 @@
+.another{
+  background-image: url('./seller/Photo/viplo.jpg');
+  background-size: 100% 100%;
+}
+
+.mainheading {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+  }
+
+  .mainheading::after {
+    position: absolute;
+    right: 0;
+  }
+
+  .mainheading {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+  }
+  .mainheading::after {
+    position: relative;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+  }
+
+  @keyframes typewriter {
+    0%, 100% {
+      width: 0;
+    }
+    20%, 80% {
+      width: 10.2em;
+    }
+  }
+  @keyframes caret {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+
+
+
+.weather .thunder h2{
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004);
+    line-height:0.70em;
+    outline:none;
+    animation:animate 5s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        color:"#0e3742";
+        text-shadow: none;
+    }
+    100%{
+        color:"#fff";
+        text-shadow: 0px 0px 10px #03bcf4,
+        0 0 20px #03bcf4,
+        0 0 40px #03bcf4,
+        0 0 80px #03bcf4,
+        0 0 160px #03bcf4;
+    }
+}
+
+

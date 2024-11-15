@@ -1,0 +1,63 @@
+.first{
+    background-color:aliceblue;
+}
+
+.second{
+    background-color: aliceblue;
+}
+
+
+.first:hover{
+    font-size: 20px;
+}
+
+.second:hover{
+    font-size: 20px;
+}
+
+.mainheading {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+  }
+
+  .mainheading::after {
+    position: absolute;
+    right: 0;
+  }
+
+  .mainheading {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typewriter;
+    display: inline-block;
+    position: absolute;
+    animation-duration: 3s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+  }
+  .mainheading::after {
+    position: relative;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+  }
+
+  @keyframes typewriter {
+    0%, 100% {
+      width: 0;
+    }
+    20%, 80% {
+      width: 10.2em;
+    }
+  }
+  @keyframes caret {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
